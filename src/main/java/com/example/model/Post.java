@@ -10,7 +10,6 @@ public class Post {
     public String getId() {
         return id;
     }
-
     public String getPostName() {
         return postName;
     }
@@ -18,7 +17,6 @@ public class Post {
     public void setId(String id) {
         this.id = id;
     }
-
     public void setPostName(String postName) {
         this.postName = postName;
     }

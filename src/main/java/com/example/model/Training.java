@@ -21,4 +21,42 @@ public class Training {
     //是否完成培训
     private boolean already;
 
+    public String getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public LocalDateTime getTrainDate() {
+        return trainDate;
+    }
+    public String getPlace() {
+        return place;
+    }
+    public List<String> getSkills() {
+        return skills;
+    }
+    public boolean isAlready() {
+        return already;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setTrainDate(LocalDateTime trainDate) {
+        this.trainDate = trainDate;
+    }
+    public void setSkills(List<String> skills) {
+        this.skills = skills;
+    }
+    public void setPlace(String place) {
+        this.place = place;
+    }
+    public void setAlready(boolean already) {
+        this.already = already;
+    }
+
 }

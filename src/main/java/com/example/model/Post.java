@@ -6,4 +6,20 @@ public class Post {
     private String id;
     //部门名称
     private String postName;
+
+    public String getId() {
+        return id;
+    }
+
+    public String getPostName() {
+        return postName;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setPostName(String postName) {
+        this.postName = postName;
+    }
 }

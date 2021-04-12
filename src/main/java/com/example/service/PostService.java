@@ -5,9 +5,9 @@ import com.example.model.Post;
 import java.util.List;
 
 public interface PostService {
-    public Post addPost(Post post);
-    public Post get(String postId);
-    public List<Post> getAll();
-    public boolean modify(Post post);
-    public boolean delete(String postId);
+    Post addPost(Post post);
+    Post get(String postId);
+    List<Post> getAll();
+    boolean modify(Post post);
+    boolean delete(String postId);
 }
